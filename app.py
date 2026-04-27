@@ -29,7 +29,7 @@ def get_ai_text(topic):
     )
     
     # Wir probieren erst Flash, dann Lite als Backup
-    for model_id in ["gemini-2.0-flash", "gemini-2.0-flash-lite"]:
+    for model_id in ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-3.1-flash", "gemini-3.1-flash-lite"]:
         try:
             response = client.models.generate_content(
                 model=model_id, 

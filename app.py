@@ -8,7 +8,7 @@ import io
 st.set_page_config(page_title="KI Meme Generator", page_icon="🤣")
 
 # HIER DEINEN KEY EINTRAGEN:
-GROQ_API_KEY = "DEIN_GROQ_API_KEY_HIER" 
+GROQ_API_KEY = "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" 
 
 # Falls du es auf Streamlit Cloud hostest, nutze diese Zeile stattdessen:
 # GROQ_API_KEY = st.secrets["GROQ_API_KEY"]

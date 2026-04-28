@@ -1,6 +1,6 @@
 import streamlit as st
 import textwrap
-from google import genai
+import google.generativeai as genai
 from PIL import Image, ImageDraw, ImageFont
 import io
 
